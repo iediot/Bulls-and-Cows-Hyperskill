@@ -1,1 +1,1 @@
-This also is an unfinished project yet, here are stages 1-4 of it, I can also finally say that this is not entirely easy, only now have these Hyperskill projects started getting interesting. 
+Finalised the project and added a way to see all the stage's functionalities. Pretty cool project, had me scratching my head a few times, but cool and fun in all. A project from Hyperskill, ranked "Challengeing" on there.
