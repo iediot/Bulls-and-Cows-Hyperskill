@@ -1,1 +1,1 @@
-Finalised the project and added a way to see all the stage's functionalities. Pretty cool project, had me scratching my head a few times, but cool and fun in all. A project from Hyperskill, ranked "Challengeing" on there.
+Finalised the project and added a way to see all the stage's functionalities. Pretty cool project, had me scratching my head a few times, but cool and fun in all. A project from Hyperskill, ranked "Medium" on there.
