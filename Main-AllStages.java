@@ -281,7 +281,6 @@ public class Main {
                     i--;
                 }
             }
-            System.out.println(secretCodeLetters);
             return secretCodeLetters;
         }
         return String.valueOf(secretCode);
