@@ -306,18 +306,27 @@ public class Main {
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         System.out.println("Select the stage you want to see the functionality for:");
-        int stage = scanner.nextInt();
-        switch (stage) {
-            case 1 -> stageOne();
-            case 2 -> stageTwo();
-            case 3 -> stageThree();
-            case 4 -> stageFour();
-            case 5 -> System.out.println("This stage is only a refactoring of the code," +
+        boolean seeMore = true;
+        while (seeMore) {
+            String stage = scanner.next();
+            switch (stage) {
+                case "1" -> stageOne();
+                case "2" -> stageTwo();
+                case "3" -> stageThree();
+                case "4" -> stageFour();
+                case "5" -> System.out.println("This stage is only a refactoring of the code," +
                     "while the functionality of it remains the same as the last stage's. Try" +
                     " stage 4 or look through the code to see the difference.");
-            case 6 -> stageSix();
-            case 7 -> stageSeven();
-            default -> System.out.println("Invalid stage...");
+                case "6" -> stageSix();
+                case "7" -> stageSeven();
+                case "exit" -> seeMore = false;
+                default -> System.out.println("Invalid stage...");
+            }
+            if (seeMore) {
+                System.out.println(" ");
+                System.out.println("Want to check another stage's functionality? If not, type 'exit'.");
+                System.out.println(" ");
+            }
         }
     }
 }
